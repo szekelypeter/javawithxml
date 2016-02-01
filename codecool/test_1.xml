@@ -2,11 +2,7 @@
 <genre>ROMANTIC</genre>
 <duration>200</duration>
 <rate>4.8</rate>
-<cast><person><firstName>Kate</firstName><lastName>Winslet</lastName><gender>FEMALE</gender><hasOscar>true</hasOscar><hasGoldenGlobe>true</hasGoldenGlobe></person><person><firstName>Leonardo</firstName><lastName>DiCaprio</lastName><gender>MALE</gender><hasOscar>false</hasOscar><hasGoldenGlobe>true</hasGoldenGlobe></person></cast></movie><movie><title>The Matrix</title>
-<genre>SCI_FI</genre>
-<duration>140</duration>
-<rate>5.0</rate>
-<cast><person><firstName>Keanu</firstName><lastName>REeves</lastName><gender>MALE</gender><hasOscar>false</hasOscar><hasGoldenGlobe>false</hasGoldenGlobe></person><person><firstName>Carrie-Anne</firstName><lastName>Moss</lastName><gender>FEMALE</gender><hasOscar>false</hasOscar><hasGoldenGlobe>false</hasGoldenGlobe></person></cast></movie><movie><title>Inception</title>
+<cast><person><firstName>Kate</firstName><lastName>Winslet</lastName><gender>FEMALE</gender><hasOscar>true</hasOscar><hasGoldenGlobe>true</hasGoldenGlobe></person><person><firstName>Leonardo</firstName><lastName>DiCaprio</lastName><gender>MALE</gender><hasOscar>false</hasOscar><hasGoldenGlobe>true</hasGoldenGlobe></person></cast></movie><movie><title>Inception</title>
 <genre>SCI_FI</genre>
 <duration>160</duration>
 <rate>5.0</rate>

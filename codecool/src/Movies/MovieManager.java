@@ -31,15 +31,27 @@ public class MovieManager {
 		inception_cast.add(leonardo_dicaprio);
 		inception_cast.add(marion_cotillard);
 		Movie inception = new Movie("Inception", Genre.SCI_FI, 160, 5.0, inception_cast);
-
+		
+		System.out.println(Tools.getMovieTitles(Movie.movies));
+		System.out.println(Tools.countMoviesPerPerson(Movie.movies));
+		System.out.println(inception.toXMLString());
+		
+		List<String> requested_movies=new ArrayList<String>();
+		requested_movies.add("Titanic");
+		requested_movies.add("Inception");
+		
 		try{
 		PrintWriter writer=new PrintWriter("test_1.xml");
 		String outPutString="";
 		for (Movie movies : Movie.movies){
-			outPutString+=movies.toXMLString();
+			for (String request: requested_movies){
+			/*outPutString+=movies.toXMLString();*/
+				if (movies.getTitle()==request){
+					outPutString+=movies.toXMLString();
+				}
+			}
 		}
-		writer.println(
-				Tools.toXMLTag("movies", outPutString));
+		writer.println(Tools.toXMLTag("movies", outPutString));
 		writer.close();
 		}
 		catch (FileNotFoundException e1) {
